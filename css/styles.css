@@ -143,11 +143,6 @@ span.accent {
 .hero-button:hover, 
 .hero-button:focus {
     opacity: 0.8;
-    border: 1px solid var(--logo-text-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    background-color: var(--accent-color);
-    color: var(--hero-title-color);
 }
 
 /*-------------INFO-----------*/
@@ -198,21 +193,16 @@ span.accent {
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
+    cursor: pointer;
     color: var(--main-text-color);
     background-color: var(--background-button-color);
 }
 
 .portfolio-filter:hover, 
 .portfolio-filter:focus  {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor:pointer;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
     color: var(--hero-title-color);
     background-color: var(--accent-color);
 }
